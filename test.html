@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Images and Heading</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        img {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
 
-
-<!-- เพิ่มรูปภาพ -->
-<img src="img/test.jpg" alt="Image Description">
-<h1>คิมิโนะโต๊ะ</h1>
+<div class="container">
+    <img src="img/mt.jpg" alt="Image Description" style="width: 20%;">
+    <img src="img/mm.jpg" alt="Image Description" style="width: 15%;">
+    <h1>คิมิโนะโต๊ะ</h1>
+</div>
 
 </body>
 </html>
